@@ -1,1 +1,3 @@
 # mern
+
+learning mern stack.
