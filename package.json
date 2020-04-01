@@ -1,0 +1,30 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Learning mern stack.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fer-plus/mern.git"
+  },
+  "author": "Robert Badurina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fer-plus/mern/issues"
+  },
+  "homepage": "https://github.com/fer-plus/mern#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
